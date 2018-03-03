@@ -1,0 +1,18 @@
+{
+  "namespace": "example.avro",
+  "type": "record",
+  "name": "Game",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
